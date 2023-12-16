@@ -12,7 +12,7 @@ using Kotlin.Jvm.Functions;
 using Java.Lang;
 using System.Linq;
 
-namespace XamarinImagePickerQs
+namespace XamarinAndroidImagePickerQs
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, IFunction1

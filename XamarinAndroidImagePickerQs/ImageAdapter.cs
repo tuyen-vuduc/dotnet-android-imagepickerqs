@@ -9,7 +9,7 @@ using Bumptech.Glide.Load.Resource.Drawable;
 using Bumptech.Glide.Request;
 using Com.Nguyenhoanglam.Imagepicker.Model;
 
-namespace XamarinImagePickerQs
+namespace DotnetAndroidImagePickerQs
 {
     public class ImageAdapter(Context context) : RecyclerView.Adapter
     {

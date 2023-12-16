@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>tech.tuyen-vuduc.dotnet8.imagepickerqs</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <RootNamespace>DotnetAndroidImagePickerQs</RootNamespace>
+    <AssemblyName>DotnetAndroidImagePickerQs</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\drawable\ic_back.xml" Link="Resources\drawable\ic_back.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\drawable\ic_camera.xml" Link="Resources\drawable\ic_camera.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\drawable\ic_select_all.xml" Link="Resources\drawable\ic_select_all.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\drawable\ic_unselect_all.xml" Link="Resources\drawable\ic_unselect_all.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\drawable\img_loading_placeholder.xml" Link="Resources\drawable\img_loading_placeholder.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\layout\activity_main.xml" Link="Resources\layout\activity_main.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\layout\fragment_main.xml" Link="Resources\layout\fragment_main.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\layout\item_image.xml" Link="Resources\layout\item_image.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\values\colors.xml" Link="Resources\values\colors.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\values\dimens.xml" Link="Resources\values\dimens.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\values\ic_launcher_background.xml" Link="Resources\values\ic_launcher_background.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\values\strings.xml" Link="Resources\values\strings.xml" />
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\values\styles.xml" Link="Resources\values\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\XamarinAndroidImagePickerQs\Resources\xml\imagepicker_file_paths.xml" Link="Resources\xml\imagepicker_file_paths.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Com.Github.Nguyenhoanglam.ImagePicker" Version="1.6.2" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.21.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <GradleRepository Include="https://jitpack.io">
+        <Repository>
+        maven {
+            url 'https://jitpack.io'
+        }
+        </Repository>
+    </GradleRepository>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\layout\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\xml\" />
+    <Folder Include="Resources\values\" />
+  </ItemGroup>
+</Project>
