@@ -9,4 +9,17 @@
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Com.Github.Nguyenhoanglam.ImagePicker" Version="1.6.2" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.21.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <GradleRepository Include="https://jitpack.io">
+        <Repository>
+        maven {
+            url 'https://jitpack.io'
+        }
+        </Repository>
+    </GradleRepository>
+  </ItemGroup>
 </Project>
