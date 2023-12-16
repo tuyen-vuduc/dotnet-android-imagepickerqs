@@ -55,3 +55,7 @@ Caused by: com.android.tools.r8.internal.Hc: Sealed classes are not supported as
 	at com.android.tools.r8.internal.Fj.a(R8_3.3.75_b7a6ff6b13548611571508fe72282c9167faa649161ca0013edfc92e19bd7e58:102)
 	at com.android.tools.r8.internal.Fj.a(R8_3.3.75_b7a6ff6b13548611571508fe72282c9167faa649161ca0013edfc92e19bd7e58:100)
 ```
+
+# License
+
+This repository is published under [MIT license](./LICENSE). You are freely to fork, use in your projects regardless of its purpose.
