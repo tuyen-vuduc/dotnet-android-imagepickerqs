@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Android.Content;
+﻿using Android.Content;
 using Android.Views;
 using Android.Widget;
 using AndroidX.RecyclerView.Widget;
@@ -8,6 +6,7 @@ using Bumptech.Glide;
 using Bumptech.Glide.Load.Resource.Drawable;
 using Bumptech.Glide.Request;
 using Com.Nguyenhoanglam.Imagepicker.Model;
+using System.Collections.Generic;
 
 namespace DotnetAndroidImagePickerQs
 {
@@ -40,7 +39,7 @@ namespace DotnetAndroidImagePickerQs
 
             var image = images[position];
             Glide.With(context)
-                .Load(image)
+                .Load(image.Uri)
                 .Apply(options)
                 .Transition(DrawableTransitionOptions.WithCrossFade())
                 .Into(imageViewHolder.Image);
