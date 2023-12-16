@@ -1,10 +1,12 @@
 # Overview
 
-This repo is the ported version of the given example of [ImagePicker Android library(https://github.com/nguyenhoanglam/ImagePicker) built by [Nguyen Hoang Lam](https://github.com/nguyenhoanglam).
+This repo is the ported version of the given example of [ImagePicker Android library](https://github.com/nguyenhoanglam/ImagePicker) built by [Nguyen Hoang Lam](https://github.com/nguyenhoanglam).
 
 In this repo, we have two examples
 - One for Xamarin.Android
 - One for .NET 8 Android
+
+The binding source code can be found [here](https://github.com/tuyen-vuduc/dotnet-binding-utils/tree/main/qs/com.github.nguyenhoanglam--imagepicker).
 
 # How to use the package in your project
 
