@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinImagePickerQs", "XamarinImagePickerQs\XamarinImagePickerQs.csproj", "{64A26530-CD50-478D-AF94-0519AB62B2ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net8ImagePickerQs", "Net8ImagePickerQs\Net8ImagePickerQs.csproj", "{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{64A26530-CD50-478D-AF94-0519AB62B2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A26530-CD50-478D-AF94-0519AB62B2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{64A26530-CD50-478D-AF94-0519AB62B2ED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6CBB72-922F-4C16-A0F7-4AF8AAB7927B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
