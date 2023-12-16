@@ -15,7 +15,7 @@ using System.Linq;
 namespace DotnetAndroidImagePickerQs
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity, IFunction1
+    public class MainActivity : AppCompatActivity, IFunction0, IFunction1
     {
         private readonly List<Image> images = new();
         private ImageAdapter imageAdapter;
@@ -142,15 +142,24 @@ namespace DotnetAndroidImagePickerQs
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
-        public Object Invoke(Object p0)
+        Java.Lang.Object IFunction1.Invoke(Java.Lang.Object p0)
         {
-            if (p0 is not Java.Util.ArrayList images) return p0;
+            if (p0 is null)
+            {
+                return p0;
+            }
+            var images = p0.JavaCast<Java.Util.ArrayList>(); ;
 
             this.images.Clear();
             this.images.AddRange(images.ToEnumerable<Image>());
             imageAdapter.SetImages(this.images);
 
             return imageAdapter;
+        }
+
+        Java.Lang.Object? IFunction0.Invoke()
+        {
+            return this;
         }
     }
 }
